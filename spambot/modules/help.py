@@ -56,7 +56,7 @@ def TeamArsenic_time(milliseconds: int) -> str:
         return TeamArsenic_ret
 
 DEFAULTUSER = str(MASTER_NAME)
-help_img = "https://telegra.ph/file/6e92103071aa47ee7023e.mp4"
+help_img = "https://telegra.ph/file/d06a18da5c7e6d9cda0e2.jpg"
 dev_caption = """
 **ıllıllı★ 𝙷𝚎𝚕𝚙 𝙼𝚎𝚗𝚞 ★ıllıllı**
 
@@ -94,12 +94,12 @@ Syntax: /replycurse (replying to anyone)
 Syntax: /dreplycurse (replying to anyone)
 
 """
-start_img = "https://telegra.ph/file/1312f063f0395fc933edd.mp4"
+start_img = "https://telegra.ph/file/d06a18da5c7e6d9cda0e2.jpg"
 help_caption = """
 **Hᴇʏ ᴍᴀsᴛᴇʀ,
 ʏᴏᴜ ᴄᴀɴ ᴀᴄᴄᴇss ᴛʜᴇ ᴡʜᴏʟᴇ ʜᴇʟᴘ ᴍᴇɴᴜ ʙʏ ᴜsɪɴɢ ᴛʜᴇ ɢɪᴠᴇɴ ʙᴜᴛᴛᴏɴs!**
 
-[©️](https://telegra.ph/file/6e92103071aa47ee7023e.mp4) @TeamGladiators
+@Sinner_Spam5Bot
 """
 start_caption = f"""
 **Nᴏᴡ ᴍᴇ ᴛᴏ ɪɴᴛʀᴏᴅᴜᴄᴇ ᴍʏsᴇʟғ.
