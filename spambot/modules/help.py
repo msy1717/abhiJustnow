@@ -68,7 +68,6 @@ dev_caption = """
 **/updates:** Check new updates and updates the bot!!
 **/restart:** Restarts the bot!!(Too fast!! **Supersonic**)
 
-[©️](https://telegra.ph/file/6e92103071aa47ee7023e.mp4) @TeamGladiators
 """
 spam_caption = """
 **ıllıllı★ 𝙷𝚎𝚕𝚙 𝙼𝚎𝚗𝚞 ★ıllıllı**
@@ -94,7 +93,6 @@ Syntax: /replycurse (replying to anyone)
 **/dreplycurse:** Deactivates reply and curse on the user!!
 Syntax: /dreplycurse (replying to anyone)
 
-[©️](https://telegra.ph/file/6e92103071aa47ee7023e.mp4) @TeamGladiators
 """
 start_img = "https://telegra.ph/file/1312f063f0395fc933edd.mp4"
 help_caption = """
@@ -110,14 +108,12 @@ I'ᴍ ʜᴇʀᴇ ᴛᴏ ᴅᴇsᴛʀᴏʏ ʏᴏᴜʀ ᴏᴘᴘᴏɴᴇɴᴛ 🔥
 I ᴄᴀɴ sᴘᴀᴍ ᴄᴏɴᴛɪɴᴜᴏsʟʏ ᴡɪᴛʜ ʟᴇss ғʟᴏᴏᴅ-ᴡᴀɪᴛ ᴇʀʀᴏʀ ᴀɴᴅ ᴡɪᴛʜ ᴍᴏʀᴇ ᴀᴄᴄᴜʀᴀᴄʏ!**
 
 **█▓▒­░⡷⠂ᗰᗩՏTᗴᖇ⠂⢾░▒▓█**
-**『 [{DEFAULTUSER}](tg://user?id={OWNER_ID}) 』**
+**『 [{DEFAULTUSER}](t.me/aceduke_XD) 』**
 
-[©️](https://telegra.ph/file/ec3c057fcba5594151601.jpg) @TeamGladiators
-"""
 close_caption = """
 **Hᴇʟᴘ ᴍᴇɴᴜ ʜᴀs ʙᴇᴇɴ ᴄʟᴏsᴇᴅ!!**
 
-©️ @TeamGladiators
+
 """
 helpbuttons = [
     [
@@ -141,14 +137,8 @@ help_buttons = [
 startbuttons = [
     [
         InlineKeyboardButton(
-            text="Repo", url="https://github.com/Gladiators-Projects/SpamBot"),
-        InlineKeyboardButton(
-            text="Support", url=f"https://t.me/Gladiators_Support"
-        ),
-    ],
-    [
-        InlineKeyboardButton(
-            text="Github Organisation", url="https://github.com/Gladiators-Projects"),
+            text="Owner", url="https://t.me/The_Sinners_Empire")
+       
     ]
 ]
   
