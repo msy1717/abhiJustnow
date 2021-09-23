@@ -59,19 +59,16 @@ DEFAULTUSER = str(MASTER_NAME)
 help_img = "https://telegra.ph/file/d06a18da5c7e6d9cda0e2.jpg"
 dev_caption = """
 **ıllıllı★ 𝙷𝚎𝚕𝚙 𝙼𝚎𝚗𝚞 ★ıllıllı**
-
-
 **/ping:** Check ping of the server!!
 **/addsudo:** Use this while replying to anyone will add him as a sudo user!!
 **/rmsudo:** Use this while replying to anyone will remove him from sudo user!!
 **/leave <chat id>:** Bot will leave that chat!!
 **/updates:** Check new updates and updates the bot!!
 **/restart:** Restarts the bot!!(Too fast!! **Supersonic**)
-
+[©️](https://telegra.ph/file/d06a18da5c7e6d9cda0e2.jpg)  @The_Sinners_Empires
 """
 spam_caption = """
 **ıllıllı★ 𝙷𝚎𝚕𝚙 𝙼𝚎𝚗𝚞 ★ıllıllı**
-
 **/spam:** Spams text for given counter!!\nSyntax: /spam <counter> <text>
 **/uspam:** Spams text continuosly!!\nSyntax: /uspam <text>
 **/dspam:** Delay spam a text for given counter after given time!!
@@ -92,28 +89,27 @@ Syntax: /ucurse @telegram or /ucurse (replying to anyone)
 Syntax: /replycurse (replying to anyone)
 **/dreplycurse:** Deactivates reply and curse on the user!!
 Syntax: /dreplycurse (replying to anyone)
-
+[©️](https://telegra.ph/file/d06a18da5c7e6d9cda0e2.jpg) @The_Sinners_Empires
 """
 start_img = "https://telegra.ph/file/d06a18da5c7e6d9cda0e2.jpg"
 help_caption = """
 **Hᴇʏ ᴍᴀsᴛᴇʀ,
 ʏᴏᴜ ᴄᴀɴ ᴀᴄᴄᴇss ᴛʜᴇ ᴡʜᴏʟᴇ ʜᴇʟᴘ ᴍᴇɴᴜ ʙʏ ᴜsɪɴɢ ᴛʜᴇ ɢɪᴠᴇɴ ʙᴜᴛᴛᴏɴs!**
-
-@Sinner_Spam5Bot
+[©️](https://telegra.ph/file/d06a18da5c7e6d9cda0e2.jpg) @The_Sinners_Empire
 """
 start_caption = f"""
 **Nᴏᴡ ᴍᴇ ᴛᴏ ɪɴᴛʀᴏᴅᴜᴄᴇ ᴍʏsᴇʟғ.
 I ᴀᴍ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟʟ sᴘᴀᴍ-ʙᴏᴛ ᴇᴠᴇʀ ᴍᴀᴅᴇ!
 I'ᴍ ʜᴇʀᴇ ᴛᴏ ᴅᴇsᴛʀᴏʏ ʏᴏᴜʀ ᴏᴘᴘᴏɴᴇɴᴛ 🔥🔥🔥
 I ᴄᴀɴ sᴘᴀᴍ ᴄᴏɴᴛɪɴᴜᴏsʟʏ ᴡɪᴛʜ ʟᴇss ғʟᴏᴏᴅ-ᴡᴀɪᴛ ᴇʀʀᴏʀ ᴀɴᴅ ᴡɪᴛʜ ᴍᴏʀᴇ ᴀᴄᴄᴜʀᴀᴄʏ!**
-
 **█▓▒­░⡷⠂ᗰᗩՏTᗴᖇ⠂⢾░▒▓█**
-**『 [{DEFAULTUSER}](t.me/aceduke_XD) 』**
-
-close_caption = '''**Hᴇʟᴘ ᴍᴇɴᴜ ʜᴀs ʙᴇᴇɴ ᴄʟᴏsᴇᴅ!!**
-
-@The_Sinners_Empire
-'''
+**『 [{DEFAULTUSER}](t.me/aceduke_sinx) 』**
+[©️](https://telegra.ph/file/ec3c057fcba5594151601.jpg) @The_Sinners_Empire
+"""
+close_caption = """
+**Hᴇʟᴘ ᴍᴇɴᴜ ʜᴀs ʙᴇᴇɴ ᴄʟᴏsᴇᴅ!!**
+©️ @The_Sinners_Empire
+"""
 helpbuttons = [
     [
         InlineKeyboardButton(text="Sᴘᴀᴍ Cᴍᴅs", callback_data="spamcmds"),
@@ -136,8 +132,14 @@ help_buttons = [
 startbuttons = [
     [
         InlineKeyboardButton(
-            text="Owner", url="https://t.me/The_Sinners_Empire")
-       
+            text="updates", url="https://t.me/SinXBots"),
+        InlineKeyboardButton(
+            text="Support", url=f"https://t.me/sinx_support"
+        ),
+    ],
+    [
+        InlineKeyboardButton(
+            text="Main Community", url="https://t.me/The_Sinners_Empire"),
     ]
 ]
   
@@ -189,11 +191,11 @@ def help_menu(update, context):
         ping_end = datetime.now()
         ms = (ping_end-ping_start).microseconds / 1000
         uptime = TeamArsenic_time((time.time() - Start_time) * 1000)
-        pong = f'''
+        pong = f"""
         •• Pᴏɴɢ !! ••
         ⏱ Pɪɴɢ sᴘᴇᴇᴅ : {ms}ᴍs
         ⏳ Uᴘᴛɪᴍᴇ - {uptime}
-        '''
+        """
         query.answer(pong, alert=True)
     if query.data == "back":
         query.message.edit_text(
@@ -213,6 +215,11 @@ def help_menu(update, context):
             reply_markup=InlineKeyboardMarkup(openbuttons),
             parse_mode=ParseMode.MARKDOWN,
         )
+
+
+
+
+
 
 start_handler = CommandHandler("start", start)
 help_handler = CommandHandler("help", help)
