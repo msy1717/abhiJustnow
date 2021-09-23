@@ -189,11 +189,11 @@ def help_menu(update, context):
         ping_end = datetime.now()
         ms = (ping_end-ping_start).microseconds / 1000
         uptime = TeamArsenic_time((time.time() - Start_time) * 1000)
-        pong = f"""
+        pong = f'''
         •• Pᴏɴɢ !! ••
         ⏱ Pɪɴɢ sᴘᴇᴇᴅ : {ms}ᴍs
         ⏳ Uᴘᴛɪᴍᴇ - {uptime}
-        """
+        '''
         query.answer(pong, alert=True)
     if query.data == "back":
         query.message.edit_text(
