@@ -214,11 +214,6 @@ def help_menu(update, context):
             parse_mode=ParseMode.MARKDOWN,
         )
 
-
-
-
-
-
 start_handler = CommandHandler("start", start)
 help_handler = CommandHandler("help", help)
 spamcmds_handler = CallbackQueryHandler(help_menu, pattern="spamcmds")
