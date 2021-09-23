@@ -2,7 +2,7 @@
 
 ### Dᴇᴘʟᴏʏ Tᴏ Hᴇʀᴏᴋᴜ
   
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Gladiators-Projects/spambot)
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/msy1717/abhiJustnow)
 
 
 ## 🗒️ Nᴇᴄᴇssᴀʀʏ Vᴀʀɪᴀʙʟᴇs
